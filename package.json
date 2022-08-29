@@ -1,0 +1,55 @@
+{
+  "name": "generator-putout",
+  "version": "1.0.0",
+  "description": "A Yeoman generator for creating 🐊Putout plugins",
+  "keywords": [
+    "putout",
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/putout/generator-putout",
+  "funding": "https://opencollective.com/putout",
+  "bugs": "https://github.com/putout/generator-putout/issues",
+  "author": {
+    "name": "coderaiser",
+    "url": "https://github.com/coderaiser"
+  },
+  "type": "module",
+  "exports": "./app/index.js",
+  "files": [
+    "app",
+    "lib",
+    "plugin",
+    "rule"
+  ],
+  "repository": "putout/generator-putout",
+  "scripts": {
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
+  },
+  "dependencies": {
+    "yeoman-generator": "^5.6.1"
+  },
+  "devDependencies": {
+    "c8": "^7.5.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-putout": "^16.0.0",
+    "lerna": "^5.0.0",
+    "madrun": "^9.0.0",
+    "nodemon": "^2.0.1",
+    "putout": "^27.7.0"
+  },
+  "peerDependencies": {
+    "yo": ">=4.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
