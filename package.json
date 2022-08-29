@@ -2,6 +2,7 @@
   "name": "generator-putout",
   "version": "1.0.0",
   "description": "A Yeoman generator for creating 🐊Putout plugins",
+  "commitType": "colon",
   "keywords": [
     "putout",
     "yeoman-generator"
