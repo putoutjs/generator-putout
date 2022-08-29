@@ -35,5 +35,6 @@ export default class extends Generator {
         this.fs.copyTpl(this.templatePath("_plugin.js"), this.destinationPath("lib/index.js"), this.answers);
         this.fs.copyTpl(this.templatePath("_package.json"), this.destinationPath("package.json"), this.answers);
         this.fs.copyTpl(this.templatePath("_README.md"), this.destinationPath("README.md"), this.answers);
+        this.fs.copyTpl(this.templatePath("LICENSE"), this.destinationPath("LICENSE"), this.answers);
     }
 }
