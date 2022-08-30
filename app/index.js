@@ -10,7 +10,6 @@
 //------------------------------------------------------------------------------
 
 import Generator from "yeoman-generator";
-import RuleGenerator from "../rule/index.js";
 import PluginGenerator from "../plugin/index.js";
 import { fileURLToPath } from "node:url";
 import path from "node:path";

@@ -10,7 +10,7 @@
   ],
   "author": "<%- userName.replace(/"/g, '\\"') %>",
   "main": "./lib/<%= pluginId %>.js",
-  "exports": "./lib/<%= pluginId %>",
+  "exports": "./lib/<%= pluginId %>.js",
   "scripts": {
     "test": "madrun test",
     "watch:test": "madrun watch:test",
