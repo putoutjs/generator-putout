@@ -1,4 +1,4 @@
-# generator-putout ![CI](https://github.com/eslint/generator-eslint/workflows/CI/badge.svg) [![NPM version](https://img.shields.io/npm/v/generator-eslint.svg?style=flat)](https://npmjs.org/package/generator-eslint)
+# generator-putout [![NPM version](https://img.shields.io/npm/v/generator-putout.svg?style=flat)](https://npmjs.org/package/generator-putout)
 
 The 🐊Putout generator for [Yeoman](https://yeoman.io/). This generator is intended to aid development within the 🐊[Putout](https://github.com/coderaiser/putout) project. It is designed to work within the top-level `putout` directory.
 
