@@ -29,6 +29,7 @@ export default class extends Generator {
         this.answers.pluginId = pluginId.replace('putout-plugin-', '');
         this.fs.copyTpl(this.templatePath('_.eslintrc.json'), this.destinationPath('.eslintrc.json'), this.answers);
         this.fs.copyTpl(this.templatePath('_.putout.json'), this.destinationPath('.putout.json'), this.answers);
+        this.fs.copyTpl(this.templatePath('_.npmignore'), this.destinationPath('.npmignore'), this.answers);
         this.fs.copyTpl(this.templatePath('_.madrun.mjs'), this.destinationPath('.madrun.mjs'), this.answers);
         this.fs.copyTpl(this.templatePath('_plugin.js'), this.destinationPath(`lib/${pluginId}.js`), this.answers);
         this.fs.copyTpl(this.templatePath('_test.js'), this.destinationPath(`test/${pluginId}.js`), this.answers);
