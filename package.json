@@ -19,8 +19,7 @@
   "files": [
     "app",
     "lib",
-    "plugin",
-    "rule"
+    "plugin"
   ],
   "repository": "putout/generator-putout",
   "scripts": {
