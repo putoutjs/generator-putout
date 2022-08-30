@@ -21,7 +21,10 @@
     "lib",
     "plugin"
   ],
-  "repository": "putout/generator-putout",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/putoutjs/generator-putout.git"
+  },
   "scripts": {
     "test": "madrun test",
     "watch:test": "madrun watch:test",
