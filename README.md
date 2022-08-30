@@ -20,7 +20,7 @@ npm i -g generator-putout
 
 ## Usage
 
-The Yeoman generator currently supports the following commands:
+If you want to create a new **🐊Putout** plugin, make sure you're in the top-level directory where you want the plugin to be created and type:
 
 ```sh
 yo putout
