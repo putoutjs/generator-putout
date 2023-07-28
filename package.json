@@ -7,9 +7,9 @@
     "putout",
     "yeoman-generator"
   ],
-  "homepage": "https://github.com/putout/generator-putout",
+  "homepage": "https://github.com/putoutjs/generator-putout",
   "funding": "https://opencollective.com/putout",
-  "bugs": "https://github.com/putout/generator-putout/issues",
+  "bugs": "https://github.com/putoutjs/generator-putout/issues",
   "author": {
     "name": "coderaiser",
     "url": "https://github.com/coderaiser"
