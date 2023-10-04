@@ -1,3 +1,12 @@
+2023.10.04, v1.2.0
+
+feature:
+- 0d3b594 package: putout v32.2.0
+- 279c7ff package: nodemon v3.0.1
+- 247bae1 package: eslint-plugin-putout v20.0.0
+- 991b2ed package: c8 v8.0.1
+- 4d01342 template: _package: update dependencies
+
 2022.08.30, v1.1.0
 
 feature:
