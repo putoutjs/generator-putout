@@ -1,6 +1,6 @@
 import Generator from 'yeoman-generator';
-import {basename} from 'path';
-import {cwd} from 'process';
+import {basename} from 'node:path';
+import {cwd} from 'node:process';
 import {isRequired} from '../lib/validators.js';
 
 export default class extends Generator {

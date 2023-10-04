@@ -2,3 +2,7 @@ node_modules/
 temp/
 npm-debug.log
 .eslint-release-info.json
+.idea
+*.swp
+yarn-error.log
+coverage

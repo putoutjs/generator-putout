@@ -2,11 +2,7 @@
   "name": "generator-putout",
   "version": "1.1.0",
   "description": "A Yeoman generator for creating 🐊Putout plugins",
-  "commitType": "colon",
-  "keywords": [
-    "putout",
-    "yeoman-generator"
-  ],
+  "keywords": ["putout", "yeoman-generator"],
   "homepage": "https://github.com/putoutjs/generator-putout",
   "funding": "https://opencollective.com/putout",
   "bugs": "https://github.com/putoutjs/generator-putout/issues",

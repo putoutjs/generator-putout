@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/1573141/187409656-fdd6a1f6-3ae2-4752-a30e-a8420011fcdd.png)
 
-
 The 🐊Putout generator for [Yeoman](https://yeoman.io/). This generator is intended to aid development within the 🐊[Putout](https://github.com/coderaiser/putout) project. It is designed to work within the top-level `putout` directory.
 
 ## Installation
