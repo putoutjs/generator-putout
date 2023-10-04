@@ -46,7 +46,7 @@
     "lerna": "^5.0.0",
     "madrun": "^9.0.0",
     "nodemon": "^3.0.1",
-    "putout": "^27.7.0"
+    "putout": "^32.2.0"
   },
   "peerDependencies": {
     "yo": ">=4.0.0"
